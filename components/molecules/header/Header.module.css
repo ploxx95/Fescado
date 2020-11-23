@@ -1,0 +1,19 @@
+.header {
+  background-color: var(--black-main);
+  height: 46px;
+  color: white;
+  padding: var(--padding-general);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerItems {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-icon);
+}
+.logocenter {
+  position: absolute;
+  left: calc(50% - var(--mid-logo));
+}

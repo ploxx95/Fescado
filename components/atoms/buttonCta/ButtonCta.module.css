@@ -1,0 +1,9 @@
+.buttonCta {
+  cursor: pointer;
+  background-color: var(--color-primary);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.6rem 3.2rem;
+  border-radius: 0.4rem;
+  border: none;
+}

@@ -1,0 +1,46 @@
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 368px;
+}
+.nextimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.gradient {
+  position: relative;
+  width: 100%;
+  height: 368px;
+  background: linear-gradient(
+    180deg,
+    rgba(24, 27, 50, 0) 55.98%,
+    rgba(24, 27, 50, 0.29) 72.79%,
+    #181b32 92.8%
+  );
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 500px;
+  position: relative;
+  bottom: 100px;
+  color: white;
+}
+.h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapperButton {
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}

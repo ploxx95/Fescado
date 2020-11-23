@@ -1,0 +1,49 @@
+:root {
+  /* Colores */
+  --black-main: #0f1124;
+  --blue-dark-main: #181b32;
+  --color-primary: #2fb988;
+  /* ESPACE */
+  --padding-general: 0 2rem 0 2rem;
+  --gap-icon: 1.6rem;
+
+  /* Rules */
+  --mid-logo: 68px;
+
+  --just-white: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: var(--blue-dark-main);
+}
+.path {
+  fill: white;
+}
+h1 {
+  color: var(--just-white);
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  border: 10px solid red;
+}
+a {
+  text-decoration: none;
+  color: var(--just-white);
+}
